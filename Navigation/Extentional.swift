@@ -30,3 +30,12 @@ extension UIViewController {
     }
     
 }
+
+extension UIColor {
+    static var tabBarItemAccent: UIColor {
+        #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+    }
+    static var tabBarItemLight: UIColor {
+        #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+    }
+}

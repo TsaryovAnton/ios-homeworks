@@ -14,6 +14,8 @@
 		35D99B8E29F7CD9C00D76127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D99B8C29F7CD9C00D76127 /* LaunchScreen.storyboard */; };
 		35D99B9629F7DC7F00D76127 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D99B9529F7DC7F00D76127 /* PostViewController.swift */; };
 		35D99B9829F7DFFD00D76127 /* Extentional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D99B9729F7DFFD00D76127 /* Extentional.swift */; };
+		35D99B9A29F7F09300D76127 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D99B9929F7F09300D76127 /* ProfileViewController.swift */; };
+		35D99B9E29F7FD9F00D76127 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D99B9D29F7FD9F00D76127 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		35D99B8F29F7CD9C00D76127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D99B9529F7DC7F00D76127 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		35D99B9729F7DFFD00D76127 /* Extentional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentional.swift; sourceTree = "<group>"; };
+		35D99B9929F7F09300D76127 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		35D99B9D29F7FD9F00D76127 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				35D99B8129F7CD9A00D76127 /* AppDelegate.swift */,
 				35D99B8329F7CD9A00D76127 /* SceneDelegate.swift */,
+				35D99B9D29F7FD9F00D76127 /* TabBarController.swift */,
 				35D99B8529F7CD9A00D76127 /* FeedViewController.swift */,
 				35D99B9529F7DC7F00D76127 /* PostViewController.swift */,
+				35D99B9929F7F09300D76127 /* ProfileViewController.swift */,
 				35D99B9729F7DFFD00D76127 /* Extentional.swift */,
 				35D99B8A29F7CD9C00D76127 /* Assets.xcassets */,
 				35D99B8C29F7CD9C00D76127 /* LaunchScreen.storyboard */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D99B9A29F7F09300D76127 /* ProfileViewController.swift in Sources */,
 				35D99B8629F7CD9A00D76127 /* FeedViewController.swift in Sources */,
 				35D99B9829F7DFFD00D76127 /* Extentional.swift in Sources */,
 				35D99B9629F7DC7F00D76127 /* PostViewController.swift in Sources */,
+				35D99B9E29F7FD9F00D76127 /* TabBarController.swift in Sources */,
 				35D99B8229F7CD9A00D76127 /* AppDelegate.swift in Sources */,
 				35D99B8429F7CD9A00D76127 /* SceneDelegate.swift in Sources */,
 			);

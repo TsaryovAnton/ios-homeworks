@@ -24,10 +24,11 @@ class PostViewController: UIViewController {
         
         let alertButton = createCustomButton(imageName: "folder", selector: #selector(alertButtonTapped))
         navigationItem.rightBarButtonItem = alertButton // помещаем кнопку на вью
+        
     }
     
     @objc private func alertButtonTapped() {
-        self.present(alertController, animated: true, completion: nil)
+        
         let action = UIAlertAction(title: "OK", style: .default) {_ in
             print("Ok - Done")
         }
@@ -36,6 +37,9 @@ class PostViewController: UIViewController {
         }
         alertController.addAction(action)
         alertController.addAction(secondAction)
+        self.present(alertController, animated: true, completion: nil)
     }
+    
+    
     
 }
