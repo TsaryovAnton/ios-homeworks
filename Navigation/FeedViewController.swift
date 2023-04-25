@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MyViewController: UIViewController {
+class FeedViewController: UIViewController {
     
     // создали кнопку
     private let contactButton: UIButton = {
@@ -29,7 +29,7 @@ class MyViewController: UIViewController {
     
     // создаем действие на нажатие
     @objc private func contactButtonTapped() {
-        let contactViewController = ContactViewController()
+        let contactViewController = PostViewController()
         navigationController?.pushViewController(contactViewController, animated: true)
     }
     
